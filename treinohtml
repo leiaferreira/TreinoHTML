@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercico do curso basico</title>
+    <style>
+        h1{
+            color: red;
+            font-family: "ARIAL";
+            font-size: 30px;
+        }
+        p{
+            font-size: 20px;
+            font-family: Georgia ;
+        }
+        .titulo{
+            color: green;
+            font-family: Arial;
+            
+
+        }
+        #txt {
+            font-family: Arial;
+            font-size: 20px;
+        }
+        .lista{
+            font-family: Georgia;
+            font-size: 20px;
+            color: blue;
+            
+        }
+        .nao-ordenada{
+            font-family: Georgia;
+            font-size: 20px;
+            color: rgb(136, 136, 19);
+        }
+    </style>
+</head>
+<body>
+    <p>Primeira vez que digito um codigo em html </p>
+    <!-- Não é a primeira vez mass vamos fingir que sim ... -->
+    <p>
+        nome: Digite seu nome <br>
+        data.: Digite sua data de nascimento <br>
+        end. : Digite seu endereço
+    </p>
+    <hr>
+    <h1> Inserindo efeitos</h1>
+    
+    <P> Inserindo o efito <b>negrito</b> em um paragrafo</P>
+    <p>inserindo o efeito <i>italico</i> no paragrafo</p>
+    <p>inserindo o efeito de <u>sumblinhado 
+    </u> no paragrafo </p>
+    <p> efeito de <br>quebra linha</p>
+    <hr>
+    <h1>Alterando alinhamento do texto</h1>
+    <p> Utilizando o atributo align </p>
+    <p align="left"> Alinhado a esquerda(padrão)</p>
+    <p align="right"> Alinhado a direita</p>
+    <p align="center"> Texto alinhado ao centro</p>
+    <p align="justify"> Alinhamento justificado</p>
+    <hr>
+    <h1> Alterando a fonte</h1>
+    <p>times new roma é a fonte padrao do html </p>
+    <p>
+        Utilizando a tag font com os seguintes atributos : face, color e size. <br>
+        <font Face="Arial"> Aqui a fonte esta em arial</font><br>
+        <font Face="georgia"> Aqui a fonte esta em georgia </font><br>
+        <font size="5"> Aqui estamos almentando o tamanho da fonte</font><br>
+        <font color="red"> Aqui estamos alterando a cor da fonte</font>
+    </p>
+    <p> Vale destacar que da pra fazer coisa melhor com o css</p>
+    <h1 > A questao dos titulos </h1>
+    <p> Em thml usamos as tags que vao de h1 ate h6 como subtitulos <br> A h1 já esta sendo usada entao vamos averiguar as outras.</p>
+    <h2 class="titulo"> Este é o h2</h2>
+    <h3 class="titulo"> Este é o h3</h3>
+    <h4 class="titulo"> Este é o h4</h4>
+    <h5 class="titulo"> Este é o h5</h5>
+    <h6 class="titulo"> Este é o h6</h6>
+<hr>
+<h1> Tag prefformated</h1>
+<p>
+    Aqui podemos digitar texto com espaços que <br> 
+    o mesmo sera refletido no navegador 
+    <pre id="txt">
+        interessante 
+        foma 
+        de 
+        escrever 
+        um 
+        poema
+    </pre>
+    
+</p>
+<hr>
+<h1> Listas </h1>
+<p>
+    Temos dois tipos de lista: numerada ou ordenada e nao numerada ou nao ordenada 
+    <br> Ordenadas ou numericas <br>
+    usamos a tag ol para abrir a lista e li para abrir os itens da lista. <br> Exemplo: <br>
+   <ol class="lista">
+    <li>Arroz</li>
+    <li>Feijão</li>
+    <li>Macarrão</li>
+    <li>Tapioca</li>
+    <li>queijo</li>
+   </ol>
+
+
+</p>
+<p>Lista nao ordenadas ou nao numericas <br>
+    Usamos ul para abrir a lista e li para os itens <br>
+    <ul class="nao-ordenada">
+        <li>Arroz</li>
+        <li>Feijão</li>
+        <li>Macarrão</li>
+        <li>Tapioca</li>
+        <li>Queijo</li>
+    </ul>
+</p>
+<p>listas intercaladas</p>
+<p>Podemos usar os dois tipos de lista juntosa <br></p>
+<ol class="lista">
+    <li>Frutas vermelhas</li>
+        <ul class="nao-ordenada">
+            <li>maça</li>
+            <li>Morango</li>
+            <li>Amora</li>
+            <li>Framboesa</li>
+        </ul>
+    <li>Frutas Citricas</li>
+        <ul class="nao-ordenada">
+            <li>Laranja</li>
+            <li>Limao</li>
+            <li>Tangerina</li>
+            <li>Caju</li>
+        </ul>    
+</ol>
+</body>
+</html>    
